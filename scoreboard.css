@@ -10,16 +10,27 @@ body {
   background-color: rgb(190, 190, 190);
 }
 
+h2 {
+  font-size: 28px;
+}
+h1 {
+  font-size: 34px;
+  text-shadow: 0 0 5px rgba(0, 11, 43, 0.979);
+}
+
 .container {
   width: 600px;
-  margin: 50px auto 0 auto;
+  margin: 20px auto 0 auto;
   border: 3px solid white;
   border-radius: 16px;
   padding-bottom: 50px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   background-color: rgba(0, 11, 43, 0.979);
 }
+
+
 
 #scoreHome, #scoreAway {
   background-color: black;
@@ -28,6 +39,20 @@ body {
   font-size: 45px;
   padding: 14px 10px;
   /* margin-bottom: 10px; */
+  border: 1px dotted orangered;
+}
+
+#quater {
+  padding-top: 30px;
+}
+.session {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.quatertext {
+  font-size: 20px;
+  color: greenyellow;
 }
 
 button {
@@ -38,4 +63,9 @@ button {
   color: rgba(255, 255, 255, 0.623);
   margin-right: 5px;
   cursor: pointer;
+}
+
+.time {
+  padding: 6px 8px;
+  color: yellow;
 }
